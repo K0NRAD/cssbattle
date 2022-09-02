@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,53 @@
     <title>battle_13_70_froggy</title>
     <style>
         * {
-        background: #293462;
-        margin: 0
+            background: #293462;
+            margin: 0
         }
 
-        p, :before, :after {
-        content: "";
-        position: absolute;
-        border-radius: 50px;
+        p,
+        :before,
+        :after {
+            content: "";
+            position: absolute;
+            border-radius: 50px;
         }
 
         p {
-        top: calc(50% + 10px);
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 150px;
-        height: 100px;
-        background: radial-gradient(circle at 50% -130px, #FE5F55 200px, #A64942 200px);
+            top: calc(50% + 10px);
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 150px;
+            height: 100px;
+            background: radial-gradient(circle at 50% -130px, #FE5F55 200px, #A64942 200px);
         }
 
         p:before {
-        top: -15px;
-        left: 25px;
-        width: 10px;
-        height: 10px;
-        background: #293462;
-        border: 10px solid #FFF1C1;
-        box-shadow: 0 0 0 10px #FE5F55;
-        -webkit-box-reflect: right 40px
+            top: -15px;
+            left: 25px;
+            width: 10px;
+            height: 10px;
+            background: #293462;
+            border: 10px solid #FFF1C1;
+            box-shadow: 0 0 0 10px #FE5F55;
+            -webkit-box-reflect: right 40px
         }
 
         p:after {
-        top: 50px;
-        left: 60px;
-        width: 10px;
-        height: 10px;
-        background: #293462;
-        -webkit-box-reflect: right 10px
+            top: 50px;
+            left: 60px;
+            width: 10px;
+            height: 10px;
+            background: #293462;
+            -webkit-box-reflect: right 10px
         }
     </style>
 </head>
+
 <body>
-    <p></p>
+    <div style="position: absolute; top:50%; left: 50%; width: 400px;height: 300px; transform: translate(-50%,-50%);">
+        <p></p>
+    </div>
 </body>
+
 </html>
