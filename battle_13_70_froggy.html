@@ -48,11 +48,25 @@
             background: #293462;
             -webkit-box-reflect: right 10px
         }
+
+        /*
+         * Only for test container
+         */
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            height: 300px;
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+            border: 2px solid white;
+        }
     </style>
 </head>
 
 <body>
-    <div style="position: absolute; top:50%; left: 50%; width: 400px;height: 300px; transform: translate(-50%,-50%);">
+    <div class="container">
         <p></p>
     </div>
 </body>
