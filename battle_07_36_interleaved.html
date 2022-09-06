@@ -1,0 +1,29 @@
+<div a style="--x:25"></div>
+<div a style="--x:175"></div>
+<div a style="--x:325"></div>
+<div b style="--x:100"></div>
+<div b style="--x:250"></div>
+<style>
+    * {
+        background: #1A4341
+    }
+
+    div {
+        position: absolute;
+        width: 50;
+        height: 200;
+        left: var(--x);
+        background: #F3AC3C
+    }
+
+    [a] {
+        top: 100;
+        border-radius: 50px 50px 0 0
+    }
+
+    [b] {
+        top: 0;
+        border-radius: 0 0 50px 50px;
+        background: #998235
+    }
+</style>

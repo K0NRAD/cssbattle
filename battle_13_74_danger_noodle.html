@@ -1,0 +1,162 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<div e></div>
+<div f></div>
+<div g></div>
+<style>
+    * {
+        background: #191919
+    }
+
+    div,
+    :before,
+    :after {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position: absolute
+    }
+
+    [a]:before {
+        top: 0;
+        left: 10;
+        width: 40;
+        height: 55;
+        border: 5px solid #E08027;
+        border-top: 0;
+        border-radius: 0 0 30px 30px
+    }
+
+    [a] {
+        top: 90;
+        left: -35;
+        width: 70;
+        height: 70;
+        border: 5px solid #E08027;
+        border-top: 0;
+        border-radius: 0 0 70px 70px
+    }
+
+    [b]:before {
+        top: 0;
+        left: 10;
+        width: 40;
+        height: 155;
+        border: 5px solid #E08027;
+        border-top: 0;
+        border-radius: 0 0 30px 30px
+    }
+
+    [b] {
+        top: 90;
+        left: 65;
+        width: 70;
+        height: 170;
+        border: 5px solid #E08027;
+        border-top: 0;
+        border-radius: 0 0 70px 70px
+    }
+
+    [c]:before {
+        top: 0;
+        left: 10;
+        width: 40;
+        height: 55;
+        border: 5px solid #E08027;
+        border-top: 0;
+        border-radius: 0 0 30px 30px
+    }
+
+    [c] {
+        top: 190;
+        left: 165;
+        width: 70;
+        height: 70;
+        border: 5px solid #E08027;
+        border-top: 0;
+        border-radius: 0 0 70px 70px
+    }
+
+    [d]:before {
+        top: 10;
+        left: 10;
+        width: 40;
+        height: 35px;
+        border: 5px solid #E08027;
+        border-bottom: 0;
+        border-radius: 30px 30px 0 0
+    }
+
+    [d] {
+        top: 40;
+        left: 15;
+        width: 70;
+        height: 50;
+        border: 5px solid #E08027;
+        border-bottom: 0;
+        border-radius: 70px 70px 0 0
+    }
+
+    [e]:before {
+        top: 10;
+        left: 10;
+        width: 40;
+        height: 135;
+        border: 5px solid #E08027;
+        border-bottom: 0;
+        border-radius: 30px 30px 0 0
+    }
+
+    [e] {
+        top: 40;
+        left: 115;
+        width: 70;
+        height: 150;
+        border: 5px solid #E08027;
+        border-bottom: 0;
+        border-radius: 70px 70px 0 0
+    }
+
+    [f]:before {
+        top: 10;
+        left: 10;
+        width: 40;
+        height: 35;
+        border: 5px solid #E08027;
+        border-bottom: 0;
+        border-right: 0;
+        border-radius: 20px 0 0 0
+    }
+
+    [f] {
+        top: 140;
+        left: 215;
+        width: 70;
+        height: 50;
+        border: 5px solid #E08027;
+        border-bottom: 0;
+        border-right: 0;
+        border-radius: 35px 0 0 0
+    }
+
+    [g]:before {
+        top: 2;
+        left: 30;
+        width: 10;
+        height: 10;
+        border-radius: 50%;
+        background: #191919;
+        -webkit-box-reflect: below 5px
+    }
+
+    [g] {
+        top: 135;
+        left: 265;
+        width: 50;
+        height: 30;
+        background: #E08027;
+        border-radius: 15px 20px 20px 15px
+    }
+</style>

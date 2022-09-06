@@ -1,0 +1,63 @@
+<div a>
+    <div b></div>
+</div>
+
+<style>
+    * {
+        background: #1A4341
+    }
+
+    div,
+    :before,
+    :after {
+        content: "";
+        position: absolute
+    }
+
+    [a]:before {
+        top: 25px;
+        left: 25px;
+        width: 200px;
+        height: 200px;
+        background: #998235;
+        border-radius: 50%
+    }
+
+    [a] {
+        top: 25px;
+        left: 75px;
+        width: 250px;
+        height: 250px;
+        background: transparent;
+        border-radius: 50%;
+        overflow: hidden
+    }
+
+    [b]:before {
+        top: 40px;
+        left: 0;
+        width: 250px;
+        height: 20px;
+        background: #F3AC3C;
+        border-bottom: 20px solid #1A4341
+    }
+
+    [b]:after {
+        top: 80px;
+        left: 0;
+        width: 250px;
+        height: 20px;
+        background: #F3AC3C;
+        border-bottom: 20px solid #1A4341
+    }
+
+    [b] {
+        top: 55px;
+        left: 0;
+        width: 250px;
+        height: 20px;
+        background: #F3AC3C;
+        border-top: 20px solid #1A4341;
+        border-bottom: 20px solid #1A4341
+    }
+</style>
