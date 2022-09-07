@@ -1,0 +1,30 @@
+<div>
+    <style>
+        * {
+            background: #1A4341;
+            margin: 0
+        }
+
+        div,
+        :before,
+        :after {
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 200;
+            height: 150
+        }
+
+        div:before {
+            right: -200;
+            background: #F3AC3C;
+            border-radius: 0 0 0 100px
+        }
+
+        div {
+            left: 0;
+            background: #F3AC3C;
+            border-radius: 0 0 100px 0;
+            -webkit-box-reflect: below
+        }
+    </style>
