@@ -1,0 +1,53 @@
+<div></div>
+<style>
+    * {
+        background: #293462
+    }
+
+    div,
+    :before,
+    :after {
+        content: "";
+        position: absolute;
+        z-index: 2
+    }
+
+    div:before {
+        top: 0;
+        left: 50;
+        width: 150;
+        height: 90;
+        border-radius: 0 0 50px 50px;
+        background: #FFF1C1
+    }
+
+    div:after {
+        top: 30;
+        left: 140;
+        width: 40;
+        height: 40;
+        border-radius: 50%;
+        background: #FE5F55
+    }
+
+    div {
+        top: 100;
+        left: 65;
+        width: 250;
+        height: 40;
+        border-radius: 40px;
+        border: 10px solid #FFF1C1;
+        background: #293462
+    }
+
+    body:before {
+        top: 120;
+        left: 145;
+        width: 40;
+        height: 10;
+        border-radius: 10px;
+        background: #FE5F55;
+        -webkit-box-reflect: below 10px;
+        z-index: 3
+    }
+</style>
