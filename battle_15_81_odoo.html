@@ -1,0 +1,35 @@
+<div a style="--x:37"></div>
+<div b style="--x:119"></div>
+<div style="--x:201"></div>
+<div style="--x:283"></div>
+<style>
+    * {
+        background: #191919;
+        margin: 0
+    }
+
+    div {
+        position: absolute;
+        top: 122;
+        left: var(--x);
+        width: 40;
+        height: 40;
+        border-radius: 50%;
+        border: 20px solid #8F8F8F
+    }
+
+    div[a] {
+        border: 20px solid #714B67
+    }
+
+    div[b]:before {
+        content: "";
+        position: absolute;
+        top: -40;
+        left: 40;
+        width: 20;
+        height: 50;
+        background: #8F8F8F;
+        border-radius: 10px 10px 0 0
+    }
+</style>
