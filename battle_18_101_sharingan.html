@@ -1,0 +1,60 @@
+<p>
+    <c></c>
+</p>
+<style>
+    * {
+        background: #161616;
+        margin: 0
+    }
+
+    p,
+    c,
+    :before,
+    :after {
+        content: "";
+        position: absolute;
+        z-index: 1
+    }
+
+    p {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 190px;
+        height: 190px;
+        background: radial-gradient(circle at center, #000 25px, #E96A23 25px, #E96A23 35px, #000 35px, #000 50px, #A22015 50px);
+        border-radius: 50%;
+        border: 5px solid #000;
+        overflow: hidden
+    }
+
+    p:before {
+        top: 130px;
+        left: 45px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background: transparent;
+        border: 15px solid #000
+    }
+
+    p:after {
+        top: 2px;
+        left: -29px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background: transparent;
+        border: 15px solid #000
+    }
+
+    c {
+        top: 2px;
+        right: -29px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background: transparent;
+        border: 15px solid #000
+    }
+</style>
