@@ -1,0 +1,32 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<style>
+    * {
+        background: #6592CF
+    }
+
+    div {
+        position: absolute;
+        top: 80px;
+        width: 100px;
+        height: 80px;
+        -webkit-box-reflect: below -20px;
+        border-radius: 0 80px 80px 0
+    }
+
+    [a] {
+        left: 190px;
+        background: #515DBD
+    }
+
+    [b] {
+        left: 150px;
+        background: #2E3B9F
+    }
+
+    [c] {
+        left: 110px;
+        background: #060F55
+    }
+</style>    
