@@ -1,0 +1,55 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<style>
+    * {
+        background: #4F77FF
+    }
+
+    div,
+    :before,
+    :after {
+        content: "";
+        position: absolute;
+        width: 240;
+        height: 20
+    }
+
+    [a]:before {
+        top: 70;
+        border-radius: 0 10px 0 10px;
+        background: #FFF
+    }
+
+    [a]:after {
+        top: 50;
+        width: 20;
+        background: #FFF
+    }
+
+    [a] {
+        top: 70;
+        left: 80;
+        height: 50;
+        border-radius: 10px 10px 10px 0;
+        background: #FFF;
+        box-shadow: 20px -20px #1038BF
+    }
+
+    [b]:before {
+        top: -20;
+        right: 0;
+        width: 20;
+        background: #FFF
+    }
+
+    [b] {
+        top: 180;
+        left: 80;
+        height: 50;
+        border-radius: 10px 0 10px 10px;
+        background: #FFF;
+        box-shadow: -20px 20px #1038BF
+    }
+</style>
