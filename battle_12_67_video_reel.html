@@ -1,0 +1,95 @@
+<div q1></div>
+<div q2></div>
+<div q3></div>
+<div q4></div>
+<style>
+    * {
+        background: #191919;
+        margin: 0
+    }
+
+    div,
+    :before,
+    :after {
+        content: "";
+        position: absolute
+    }
+
+    [q1],
+    [q2],
+    [q3],
+    [q4],
+    [q1]:before,
+    [q2]:before,
+    [q3]:before,
+    [q4]:before,
+    [q1]:after,
+    [q2]:after,
+    [q3]:after,
+    [q4]:after {
+        height: 40;
+        background: #5DBCF9;
+        width: 10
+    }
+
+    [q1]:before {
+        top: -80;
+        left: 45;
+        height: 300
+    }
+
+    [q1]:after {
+        top: 150;
+        width: 45
+    }
+
+    [q1] {
+        top: 80;
+        width: 45
+    }
+
+    [q2]:before {
+        top: -30;
+        left: 140;
+        height: 300
+    }
+
+    [q2]:after {
+        top: 150;
+        width: 140
+    }
+
+    [q2] {
+        top: 30;
+        left: 55;
+        width: 140
+    }
+
+    [q3]:before {
+        top: -80;
+        left: 140;
+        height: 300
+    }
+
+    [q3]:after {
+        top: 150;
+        width: 140
+    }
+
+    [q3] {
+        top: 80;
+        left: 205;
+        width: 140
+    }
+
+    [q4]:after {
+        top: 150;
+        width: 45
+    }
+
+    [q4] {
+        top: 30;
+        right: 0;
+        width: 45
+    }
+    </style>
