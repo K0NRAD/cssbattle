@@ -1,0 +1,80 @@
+<div c>
+    <div k1></div>
+    <div k2></div>
+    <div k3></div>
+    <div k4></div>
+    <div k5></div>
+    <div k6></div>
+    <div k7></div>
+</div>
+<style>
+    * {
+        background: #998235
+    }
+
+    div,
+    :before,
+    :after {
+        content: "";
+        position: absolute
+    }
+
+    [k2]:before,
+    [k3]:before,
+    [k5]:before,
+    [k6]:before,
+    [k7]:before {
+        left: -10;
+        width: 15;
+        height: 35;
+        background: #191919
+    }
+
+    [k1],
+    [k2],
+    [k3],
+    [k4],
+    [k5],
+    [k6],
+    [k7] {
+        top: 25;
+        left: 5;
+        width: 20;
+        height: 70;
+        border-radius: 5px;
+        background: #fff
+    }
+
+    [k2] {
+        left: 30
+    }
+
+    [k3] {
+        left: 55
+    }
+
+    [k4] {
+        left: 80
+    }
+
+    [k5] {
+        left: 105
+    }
+
+    [k6] {
+        left: 130
+    }
+
+    [k7] {
+        left: 155
+    }
+
+    [c] {
+        top: 100;
+        left: 110;
+        width: 180;
+        height: 100;
+        border-radius: 10px;
+        background: #191919
+    }
+</style>    
