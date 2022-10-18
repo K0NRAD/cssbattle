@@ -1,0 +1,96 @@
+<div b></div>
+<div c1></div>
+<div c2></div>
+<div c3></div>
+<div c4></div>
+<style>
+    * {
+        background: #191919;
+        margin: 0
+    }
+
+    div,
+    :before,
+    :after {
+        content: "";
+        position: absolute
+    }
+
+    [c2]:before {
+        top: -50px;
+        left: 125px;
+        width: 20px;
+        height: 20px;
+        background: #F2AD43
+    }
+
+    [c2] {
+        top: 160px;
+        left: 65px;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        background: #191919
+    }
+
+    [c1]:before {
+        left: 130px;
+        width: 80px;
+        height: 30px;
+        border-radius: 0 0 10px 10px;
+        background: #191919
+    }
+
+    [c1] {
+        top: 100px;
+        left: 30px;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        background: #191919
+    }
+
+    [c3]:before {
+        top: 5px;
+        right: 155px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #F2AD43
+    }
+
+    [c3]:after {
+        top: 5px;
+        right: 175px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #F2AD43
+    }
+
+    [c3] {
+        top: 100px;
+        right: 30px;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        background: #191919
+    }
+
+    [c4] {
+        top: 160px;
+        right: 65px;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        background: #191919
+    }
+
+    [b] {
+        top: 100px;
+        left: 80px;
+        width: 240px;
+        height: 80px;
+        background: #F2AD43
+    }
+</style>    
